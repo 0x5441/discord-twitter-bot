@@ -2,8 +2,8 @@ name: Tweet every 2 hours
 
 on:
   schedule:
-    - cron: "0 */2 * * *"   # كل ساعتين
-  workflow_dispatch:        # تشغيل يدوي إذا تبغى
+    - cron: "0 */2 * * *"
+  workflow_dispatch:
 
 jobs:
   tweet:
